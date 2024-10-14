@@ -1,0 +1,158 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #121212;
+    color: #494949;
+}
+
+/* Utility classes */
+.min-h-screen {
+    min-height: 100vh;
+}
+
+.bg-gray-900 {
+    background-color: #1a1a1a;
+}
+
+.bg-gray-800 {
+    background-color: #333;
+}
+
+.text-white {
+    color: #fff;
+}
+
+.text-gray-400 {
+    color: #b3b3b3;
+}
+
+/* Padding */
+.p-4 {
+    padding: 1rem;
+}
+
+.p-2 {
+    padding: 0.5rem;
+}
+
+/* Margin */
+.mb-4 {
+    margin-bottom: 1rem;
+}
+
+.mb-8 {
+    margin-bottom: 2rem;
+}
+
+.mt-4 {
+    margin-top: 1rem;
+}
+
+.mt-8 {
+    margin-top: 2rem;
+}
+
+/* Borders */
+.rounded {
+    border-radius: 0.25rem;
+}
+
+.rounded-full {
+    border-radius: 9999px;
+}
+
+/* Grid */
+.grid {
+    display: grid;
+}
+
+.grid-cols-5 {
+    grid-template-columns: repeat(5, 1fr);
+}
+
+.gap-4 {
+    grid-gap: 1rem;
+}
+
+/* Width and Height */
+.w-full {
+    width: 100%;
+}
+
+.w-40 {
+    width: 10rem;
+}
+
+.h-60 {
+    height: 15rem;
+}
+
+/* Position */
+.relative {
+    position: relative;
+}
+
+.absolute {
+    position: absolute;
+}
+
+/* Flexbox */
+.flex {
+    display: flex;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.items-center {
+    align-items: center;
+}
+
+/* Typography */
+.text-center {
+    text-align: center;
+}
+
+.text-xl {
+    font-size: 1.25rem;
+}
+
+.text-purple-600 {
+    color: #6b46c1;
+}
+
+/* List */
+.list-disc {
+    list-style-type: disc;
+}
+
+.pl-6 {
+    padding-left: 1.5rem;
+}
+
+/* Novel Card Styling */
+/* Add or modify this section for NovelCard */
+.novel-card {
+    background-color: #2d2d2d;
+    /* Card background */
+    border-radius: 8px;
+    /* Rounded corners */
+    padding: 10px;
+    /* Padding inside the card */
+    transition: transform 0.3s;
+    /* Animation effect on hover */
+}
+
+.novel-card:hover {
+    transform: scale(1.05);
+    /* Slightly enlarge on hover */
+}
+
+.novel-card img {
+    width: 100%;
+    /* Set to full width of the card */
+    height: auto;
+    /* Maintain aspect ratio */
+    border-radius: 5px;
+    /* Rounded corners for the image */
+}

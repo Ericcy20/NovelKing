@@ -1,0 +1,66 @@
+body {
+    background-color: #1a1a1a;
+    color: #e5e5e5;
+    font-family: 'Arial', sans-serif;
+}
+
+.tag {
+    background-color: #2d2d2d;
+    color: #a78bfa;
+    padding: 0.5rem 1rem;
+    margin: 0.25rem;
+    border-radius: 0.25rem;
+    cursor: pointer;
+}
+
+.tag.active {
+    background-color: #4c1d95;
+}
+
+.section-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-top: 2rem;
+}
+
+.novel-image {
+    width: 100%;
+    height: auto;
+    border-radius: 0.25rem;
+}
+
+.p-4 {
+    padding: 1rem;
+}
+
+.mb-4 {
+    margin-bottom: 1rem;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-wrap {
+    flex-wrap: wrap;
+}
+
+.grid {
+    display: grid;
+}
+
+.grid-cols-2 {
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.md\:grid-cols-3 {
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.lg\:grid-cols-6 {
+    grid-template-columns: repeat(6, 1fr);
+}
+
+.gap-4 {
+    gap: 1rem;
+}

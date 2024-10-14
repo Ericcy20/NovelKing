@@ -1,0 +1,15 @@
+:root {
+    --nav-background: #333;
+    --text-color: #fff;
+    --hover-background: #444;
+    --primary-color: #ff7f50;
+    --primary-hover-color: #ff6347;
+}
+
+:root[data-theme="light"] {
+    --nav-background: #fff;
+    --text-color: #000;
+    --hover-background: #eee;
+    --primary-color: #ff7f50;
+    --primary-hover-color: #ff6347;
+}

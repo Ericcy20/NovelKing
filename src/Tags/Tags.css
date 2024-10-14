@@ -1,0 +1,32 @@
+.tags-section {
+    background-color: #121212;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.tags-section h3 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.tags {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.tags button {
+    padding: 10px 15px;
+    background-color: #333;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 0.9em;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.tags button:hover {
+    background-color: #555;
+}
